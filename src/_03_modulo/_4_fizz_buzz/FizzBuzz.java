@@ -1,6 +1,7 @@
 
 package _03_modulo._4_fizz_buzz;
 
+import javax.swing.JOptionPane;
 
 /**
 * Fizz Buzz
@@ -20,7 +21,23 @@ package _03_modulo._4_fizz_buzz;
 * 
 **/
 
-public class FizzBuzz {
-
+public class FizzBuzz {{
+	
+	int x=1;
+	
+for (int i = 0; i< 100; i++) {
+	JOptionPane.showMessageDialog(null, "x");
+	x+=1;
+	if(x%3==0) {
+		JOptionPane.showMessageDialog(null, "fizz");
+	}
 }
+	
+	
+	
+	
+	
+	
+	
+}}
 
