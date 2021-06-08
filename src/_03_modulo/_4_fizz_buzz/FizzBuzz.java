@@ -21,16 +21,29 @@ import javax.swing.JOptionPane;
 * 
 **/
 
-public class FizzBuzz {{
+public class FizzBuzz {
+	
+	public static void main(String[] args) {
 	
 	int x=1;
 	
-for (int i = 0; i< 100; i++) {
-	JOptionPane.showMessageDialog(null, "x");
-	x+=1;
-	if(x%3==0) {
+for (int i = 0; i< 20; i++) {
+	
+	if(x%15==0) {
+		JOptionPane.showMessageDialog(null, "fizzbuzz");
+	}
+	
+	else if(x%3==0) {
 		JOptionPane.showMessageDialog(null, "fizz");
 	}
+	else if(x%5==0) {
+		JOptionPane.showMessageDialog(null, "buzz");
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "" +x+ "");
+	}
+
+	x+=1;
 }
 	
 	
@@ -38,6 +51,6 @@ for (int i = 0; i< 100; i++) {
 	
 	
 	
-	
-}}
+	}
+}
 
